@@ -10,5 +10,9 @@ def index():
 def user():
 	return "ini halaman user"
 
+@app.route("/profile")
+def profile():
+	return "hello Profile"
+
 if __name__ == "__main__":
 	app.run()
